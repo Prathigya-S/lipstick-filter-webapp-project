@@ -1,0 +1,20 @@
+canvas{
+    border: 2px dotted purple;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+h2{
+    font-size: 25px !important;
+}
+
+.btn-success:hover{
+    background-color: red;
+}
+
+@keyframes example{
+    from{box-shadow: 1px 1px 25px palevioletred;}
+    to{box-shadow: 1px 1px 25px rgb(100, 100, 239) ;}
+}
+
